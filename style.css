@@ -1,17 +1,58 @@
 body {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.5em;
+  font-family: "Quicksand", sans-serif;
 }
 
 h1, h2, h3, h4 {
   color: #0E9CAF;
   text-align: center;
+  font-size: 2.2em;
 }
 
 a:focus {
   outline: 0;
   /* styling for any way a link is about to be used */
+}
+
+#about p {
+  font-size: 1.0em;
+  line-height: 1.6em;
+}
+
+#about p.lead {
+  font-size: 1.5em;
+  line-height: 1.6em;
+}
+
+#skills {
+  background: #0E9CAF; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #0E9CAF, #D8919E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #0E9CAF, #D8919E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #0E9CAF, #D8919E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #0E9CAF, #D8919E); /* Standard syntax */
+
+  color: #fff;
+  text-align: center;
+  height: auto;
+}
+
+#skills h3{
+  color: #fff;
+
+}
+
+#skills img{
+  width: 100px;
+  margin: 2px;
+}
+
+.content{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#portfolio, #portfolio h3{
+  text-align: center;
+  color: #fff;
 }
 
 .font-small {
@@ -26,32 +67,36 @@ a:focus {
   margin-bottom: 20px;
 }
 
-header {
-  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Download-Abstract-Backgrounds-HD.jpg");
+header#page-top{
+  background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
   background-attachment: fixed;
   background-size: cover;
-}
-header #header-content {
+  min-height: 100vh;
   padding-top: 50px;
-  height: auto;
-  margin: 100px auto;
-}
-header img {
-  width: 12em;
-  display: block;
-  margin: 25px auto;
-  border-radius: 50%;
-  border: 5px solid #0E9CAF;
-}
-header p {
-  font-family: Anonymous Pro;
-  text-align: center;
+  position: relative;
   color: #fff;
-  text-shadow: 0px 2px 1px #0E9CAF;
-  font-size: 2em;
 }
-header p span {
-  font-size: 0.7em;
+
+header .header-content{
+  font-size: 2em; 
+}
+
+.header-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-shadow: 2px 2px 0px #0E9CAF;
+  font-size: 2.2em;
+  letter-spacing: 3px;
+}
+
+#portfolio {
+  background-image: url("https://static.pexels.com/photos/34676/pexels-photo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+|}
+
+#portfolio h3 h4{
+  color: #000;
 }
 
 .social-links {
